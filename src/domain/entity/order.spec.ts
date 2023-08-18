@@ -12,7 +12,7 @@ describe("Order unit tests", () =>{
     it("should throw error when customerId is empty", () =>{
         expect(() =>{
             let order = new Order("123", "", []);
-        }).toThrowError("customerId is required");
+        }).toThrowError("CustomerId is required");
     })
 
     it("should throw error when item is empty", () =>{
@@ -39,7 +39,7 @@ describe("Order unit tests", () =>{
         expect(()=> {
             const item = new OrderItem("i1", "Item 1", 100, "p1", 0);
             const order = new Order("o1", "c1", [item]);
-        }).toThrowError("Quantity must be greater than zero")
+        }).toThrowError("Quantity must be greater than 0")
     });  
 
 })
