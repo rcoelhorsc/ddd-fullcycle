@@ -111,6 +111,5 @@ export default class OrderRepository implements OrderRepositoryInterface
       });
       return orders;
     }
-
   }
   
