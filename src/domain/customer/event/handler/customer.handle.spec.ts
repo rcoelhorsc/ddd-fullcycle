@@ -2,7 +2,7 @@ import Customer from "../../entity/customer"
 import CustomerCreateEvent from "../customer-created.event"
 import InformWhenCustomerIsCreateHandler from "./inform-customer-is-create.handler"
 import InformWhenCustomerAddressIsChangedHandler from "./inform-customer-address-changed.handler"
-import ConfirmWhenCustomerIsCreateHandler from "./confirm-customer-address-changed.handler"
+import ConfirmWhenCustomerIsCreateHandler from "./confirm-customer-is-create.handler"
 import Address from "../../value-object/address"
 import CustomerChangedAddressEvent from "../customer-changed.address-event"
 
