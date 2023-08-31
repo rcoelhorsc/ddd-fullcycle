@@ -1,3 +1,3 @@
 # Full Cycle DDD: Modelagem Tática e Patterns
 
-Repositório curso
+Repositório curso | Typescript
